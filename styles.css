@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(white, black);
+    font-family: Agency FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1{
+    font-family: Agency FB;
+    font-size: 100px;
+    color: limegreen;
+  }
+
+  .imagen {
+    float: left;
+    margin: 0 10px; /* Agrega un espacio de 10px a la izquierda y derecha */
+  }
+
+  .Space {
+    align-content: space-between;
+    text-align: justify;
+  }
+
+  h3 {
+    text-align: space-between;
+  }
